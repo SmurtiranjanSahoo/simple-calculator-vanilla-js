@@ -4,4 +4,4 @@
 ## **Demo**
 https://simple-calculator-tr.netlify.app
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.PNG)
