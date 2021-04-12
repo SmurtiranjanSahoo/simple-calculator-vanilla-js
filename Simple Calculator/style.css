@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #232526, #414345);
+}
+
+header {
+  color: white;
+  font-size: 5vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin: 10vh;
+  /* text-shadow: 2px 2px 2px black; */
+}
+
+#container-calc {
+  width: 300px;
+  height: 500px;
+  border: 0.5px solid #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  margin: auto;
+  background-color: #000000;
+  box-shadow: 0 0 50px white, 0 6px 20px 0 rgba(0, 0, 0, 50);
+}
+
+#result-screen {
+  width: 280px;
+  height: 80px;
+  margin: 20px 10px 5px 10px;
+  border: 0.5px solid #ffffff;
+  border-radius: 5px;
+  background-color: #232526;
+  box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  overflow: hidden;
+}
+
+#history-screen {
+  width: 280px;
+  height: 30px;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 10px;
+  /* border: 1px solid #ffffff; */
+}
+
+#output-screen {
+  width: 280px;
+  height: 50px;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 10px;
+  /* border: 1px solid #ffffff; */
+}
+
+.container-button {
+  margin: 5px 10px 10px 10px;
+  width: 280px;
+  height: 370px;
+  /* border: 1px solid #ffffff; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+button {
+  font-size: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.data-num:hover {
+  background-color: #414345;
+  color: #ffffff;
+  box-shadow: inset 2px 3px 5px 0px rgba(0, 0, 0, 0.7);
+}
+
+.clear {
+  background-color: #ed7e28;
+  color: #ffffff;
+}
+.clearAll {
+  background-color: #bf2c2c;
+  color: #ffffff;
+}
+.divide {
+  background-color: #ef476f;
+  color: #ffffff;
+}
+.multiply {
+  background-color: #e2a20d;
+  color: #ffffff;
+}
+.minus {
+  background-color: #bd2073;
+  color: #ffffff;
+}
+.plus {
+  background-color: #118ab2;
+  color: #ffffff;
+}
+.equals {
+  color: #ffffff;
+  background-color: #369c47;
+}
+
+.clear:hover,
+.clearAll:hover,
+.divide:hover,
+.multiply:hover,
+.minus:hover,
+.plus:hover,
+.equals:hover {
+  box-shadow: inset 2px 3px 5px 0px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    font-size: 4vh;
+  }
+}
