@@ -5,3 +5,4 @@
 https://simple-calculator-tr.netlify.app
 
 ![Screenshot](screenshot.PNG)
+![Sc](images/chit-chatter 1.PNG)
